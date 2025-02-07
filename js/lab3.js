@@ -137,7 +137,7 @@ legend.addTo(map);
 
 
 //get the data
-fetch('/data/USA_MajorCities_2.geojson')
+fetch('data/USA_MajorCities_2.geojson')
     .then(response => response.json())
     .then(data => {
    
